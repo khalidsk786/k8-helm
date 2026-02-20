@@ -11,4 +11,4 @@ spec:
     - protocol: TCP
       port: {{ .Values.service.servicePort }} # service port
       targetPort: 80 # container port
-      nodePort: 30007 
+      nodePort: 30007 # Node port
